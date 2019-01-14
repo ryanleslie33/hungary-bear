@@ -27,13 +27,7 @@ export class HungryBear {
     }
 
 
-    // if (this.foodLevel > 0 || this.sleepLevel > 0) {
-    //   return false;
-    // } else if (this.angerLevel > 8) {
-    //   return true;
-    // } else {
-    //   return true;
-    // }
+  
 
   feed() {
     this.foodLevel = 10;
