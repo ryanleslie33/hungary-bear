@@ -1,9 +1,9 @@
 
 export class HungryBear {
 
-  constructor(name) {
-    this.name = name;
-    this.foodLevel = 10;
+  constructor() {
+
+    this.foodLevel = 6;
     this.sleepLevel = 15;
     this.angerLevel = 0
   }
@@ -16,6 +16,7 @@ export class HungryBear {
 
   didYouGetEaten() {
     if (this.foodLevel <= 0) {
+      console.log(" this function is working !!!!!!!!!!!")
       return true;
     } else if (this.sleepLevel <= 0) {
       return true;
@@ -26,11 +27,14 @@ export class HungryBear {
       }
     }
 
-
-  
-
   feed() {
-    this.foodLevel = 10;
+    this.foodLevel +=1;
+    this.angerLevel -= 2;
+  }
+  restart() {
+    this.foodLevel = 6;
+    this.sleepLevel = 15;
+    this.angerLevel = 0
   }
 
   setSleepy() {
@@ -41,10 +45,11 @@ export class HungryBear {
 
   sleep() {
     this.sleepLevel = 15;
+    this.foodLevel -= 1;
   }
 
   poke() {
-    this.angerLevel = 0;
+    this.angerLevel += 2;
   }
   setPoke() {
     setInterval(() => {
