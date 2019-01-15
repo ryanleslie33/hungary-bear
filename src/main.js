@@ -1,9 +1,9 @@
 
 import { HungryBear } from './hungry-bear.js';
-import '/Users/Guest/desktop/hungry-bear/src/styles.css';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './styles.css';
 
 $(document).ready(function() {
 
@@ -39,6 +39,7 @@ $(document).ready(function() {
         $('#food-level').text(bear.foodLevel);
         $('#sleep-level').text(bear.sleepLevel);
         $('#anger-level').text(bear.angerLevel);
+
         return false;
 
       }
