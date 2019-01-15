@@ -1,6 +1,6 @@
 
 import { HungryBear } from './hungry-bear.js';
-import './styles.css';
+import '/Users/Guest/desktop/hungry-bear/src/styles.css';
 import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -40,10 +40,11 @@ $(document).ready(function() {
         $('#sleep-level').text(bear.sleepLevel);
         $('#anger-level').text(bear.angerLevel);
         return false;
+
       }
     }, 250)
-    bear.restart();
     $('#testy').hide();
+
 
   });
 
