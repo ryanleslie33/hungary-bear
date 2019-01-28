@@ -1,31 +1,31 @@
 
 # _Hungry-bear_
 
-#### _{this is a game application where a user must take care of a bear or it will eat you using api calls and set intervals}, {January 15, 2018}_
+#### _{this is a game application where a user must take care of a bear or it will eat you using api calls and set intervals}, {January 15, 2019}_
 
 #### By _**{Ryan Leslie}**_
 
 ## Description
 
-_this application has two user input one for entering in a name of a doctor you are a trying to look up based in the greater portland area, that will pull up a list of 10 doctors that meet that search criteria. The second input will allow a user to input a symptom they are having and output will return a list of doctors in that practice_
+_this application has three buttons below an image of a bear.food level, sleep level, and Poke the bear. Right as you start the game the bears anger level will slowly increase unless you are using these button and giving the bear its sleep and food. If either one of these things drops below a certain level you will lose theh game._
 
 ## Setup/Installation Requirements
 
 * _Clone this repository to your terminal_
-* _open it up in atom or VisualStudio_
+* _open it up in a text editor of your choice_
 * _run a npm install in your terminal_
 * _if everything loads correctly you should be able to run npm run start and use the application_
 
 
 ## Specifications
 
-* _User can to enter a medical issue to receive a list of doctors in the portland area that fit the input_.
+* _User can hit Start Game to begin and also to restart the game_.
 
-* _User can enter a name to reveive a list of doctors in the portland area that fit search criteria_
+* _User can hit sleep level button to increase the bears sleep level and decrease anger level_
 
-* _After user had entered in the name or criteria the output should display first name, last name, address, phone number, and whether or not the doctor is taking new patients._
+* _User can hit Poke the bear button to increase the bears anger level and end the game._
 
-* _If the output does not meet any of the search criteria and there are no doctors available it should output "no doctors meet the criteria"_
+* _User can hit Feed the bear to increase food level and decrease bear anger level._
 
 
 
@@ -34,7 +34,7 @@ _this application has two user input one for entering in a name of a doctor you 
 
 ## Known Bugs
 
-_there is no known bugs at this time_
+_The only known bug at this time is that the games speed increases every time you play it until you refresh the page. the skill level was meant to get more advanced in this way but no limitations were set as of right now._
 
 ## Support and contact details
 
